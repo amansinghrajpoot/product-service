@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.eg</groupId>
+    <artifactId>product-service</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+
+  <groupId>${project.parent.groupId}.${project.parent.artifactId}</groupId>
+  <artifactId>grpc</artifactId>
+  <name>grpc</name>
+
+  <properties>
+    <java.version>11</java.version>
+    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+    <project.jdk.version>${java.version}</project.jdk.version>
+    <project.sourceEncoding>UTF-8</project.sourceEncoding>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+    <os.maven.plugin.version>1.7.0</os.maven.plugin.version>
+    <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version>
+    <protobuf.version>3.21.7</protobuf.version>
+    <grpc.version>1.45.1</grpc.version>
+    <grpc-kotlin.version>1.2.1</grpc-kotlin.version>
+    <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
+    <kotlin.version>1.6.21</kotlin.version>
+    <maven-release-plugin.version>3.0.0-M5</maven-release-plugin.version>
+    <protobuf-kotlin.version>3.21.7</protobuf-kotlin.version>
+    <grpc-kotlin-stub.version>1.2.1</grpc-kotlin-stub.version>
+    <javax-annotation-api.version>1.3.2</javax-annotation-api.version>
+    <kotlin-stdlib.version>1.6.10</kotlin-stdlib.version>
+    <kotlinx-coroutines-core.version>1.6.0</kotlinx-coroutines-core.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.eg</groupId>
+      <artifactId>product-api-proto</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <exclusions>
+        <exclusion>
+          <groupId>io.grpc</groupId>
+          <artifactId>grpc-netty-shaded</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <finalName>grpc</finalName>
+    <sourceDirectory>src/main/kotlin</sourceDirectory>
+    <testSourceDirectory>src/test/kotlin</testSourceDirectory>
+
+    <plugins>
+    </plugins>
+  </build>
+</project>

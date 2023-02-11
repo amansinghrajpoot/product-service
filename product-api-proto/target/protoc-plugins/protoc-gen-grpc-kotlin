@@ -1,0 +1,8 @@
+#!/bin/sh
+
+CP="/Users/Aman_Rajput/.m2/repository/io/grpc/protoc-gen-grpc-kotlin/1.2.1/protoc-gen-grpc-kotlin-1.2.1-jdk7.jar"
+ARGS=""
+JVMARGS=""
+
+"/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin/java" $JVMARGS -cp $CP io.grpc.kotlin.generator.GeneratorRunner $ARGS
+

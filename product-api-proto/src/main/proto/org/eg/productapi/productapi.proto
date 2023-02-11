@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package org.eg.productapi.v1;
+
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/timestamp.proto";
+
+option java_multiple_files = true;
+option java_outer_classname = "ProductApiProto";
+option java_package = "org.eg.productapi.v1";
+
+service ProductService {
+  rpc getProduct(getProductRequest) returns (getProductResponse);
+}
+
+message getProductRequest{
+  string id = 1;
+}
+
+message getProductResponse{
+  string product = 1;
+}
