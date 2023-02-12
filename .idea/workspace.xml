@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="671f5cc9-e088-4a82-84ca-36bfce900370" name="Changes" comment="" />
+    <list default="true" id="671f5cc9-e088-4a82-84ca-36bfce900370" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc/src/main/kotlin/org/eg/api/productservice/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/grpc/src/main/kotlin/org/eg/api/productservice/Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc/target/classes/org/eg/api/productservice/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/grpc/target/classes/org/eg/api/productservice/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc/target/classes/org/eg/api/productservice/ApplicationKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/grpc/target/classes/org/eg/api/productservice/ApplicationKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc/target/grpc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/grpc/target/grpc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/grpc/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-api-proto/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-api-proto/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-api-proto/target/product-api-proto-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/product-api-proto/target/product-api-proto-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +29,9 @@
         <option value="Kotlin Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -36,6 +49,7 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2LYkD1dxNyvq63OHvn0nNpTrzdP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,6 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files"
   }
 }]]></component>
@@ -69,5 +84,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
